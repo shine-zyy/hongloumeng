@@ -1,0 +1,191 @@
+body {
+  background-color: #B5A583;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, label, dl, dt, dd, fieldset, img {
+    border: 0 none;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+  color:dodgerblue;
+  text-decoration: none;
+}
+
+h3, h4, h5 {
+    color: #00A86B;
+}
+h4{
+    color: red;
+}
+
+.div_a {
+    background: url("../images/div_a.jpg");
+    background-repeat: repeat;
+    background-position: center bottom;
+    clear: both;
+    width: 100%;
+    min-height: 600px;
+}
+
+.div_b {
+    background-position: center top;
+    background-repeat: no-repeat;
+    clear: both;
+    width: 100%;
+}
+
+
+.div_head {
+    background: url("../images/cimage.jpg");
+    height: 190px;
+    clear: both;
+    margin: 0 auto;
+    position: relative;
+    width: 950px;
+    margin-top: 36px;
+    z-index: 100;
+}
+
+ .blogtitle {
+    font-family: "微软雅黑","黑体";
+    font-size: 24px;
+    font-weight: 300;
+    color: red;
+ }
+
+.div_head .blognav .blognavInfo {
+    height: 16px;
+    left: 0;
+    position: absolute;
+    top: 11px;
+}
+
+.listPanel {
+    margin: 0 auto 30px;
+    overflow: hidden;
+    width: 750px;
+}
+.listPanel2{
+    overflow: hidden;
+}
+.listPanel3 {
+    margin: 0 auto 30px;
+    overflow: hidden;
+    width: 710px;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.listPanel ul,.listPanel2 ul {
+    width: 920px;
+}
+.clearfix {
+    display: block;
+}
+ul, ol {
+    list-style: none outside none;
+}
+.listPanel li {
+    display: inline;
+    font-size: 12px;
+    height: 24px;
+    line-height: 24px;
+    margin: 2px 10px 0 0;
+    padding: 2px 0 2px 5px;
+    float: left;
+    position: relative;
+    width: 400px;
+}
+.listPanel2 li{
+    float: right;
+    width: 500px;
+    line-height: 30px;
+}
+
+.listPanel3 li{
+    margin: 30 auto;
+    line-height: 30px;
+}
+.listPanel3 img{
+    width: 230px;
+    height: 250px;
+}
+.magin20{
+    margin: 20px;
+    color: red;
+    text-align: center;
+}
+.paddingbt100{
+    padding-bottom: 100px;
+}
+.detail{
+    text-align: left;
+    line-height: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.center{
+   text-align: center;
+
+}
+.setwidth{
+    width: 910px;
+}
+.top{
+    position: fixed;
+    right: 20px;
+    top: 500px;
+}
+
+.mod-topbar {
+    background: url("../images/header.png");
+    height: 40px;
+    left: 0;
+    padding-bottom: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1023;
+}
+.wrapper-box{
+    height: 35px;
+    margin: 0 auto;
+    padding-bottom: 0;
+    width: 980px;
+    clear: both;
+    position: relative;
+}
+.left-box{
+    float: left;
+    padding-top: 3px;
+}
+
+ .center-box {
+    float: left;
+    height: 35px;
+    margin-left: 50px;
+}
+.q-menubox{
+    float: left;
+    height: 100%;
+}
+.q-menuitem{
+    float: left;
+    font-size: 12px;
+    height: 100%;
+    line-height: 35px;
+    text-align: center;
+}
+.q-menuitem a {
+    padding-right: 23px;
+    color: black;
+}

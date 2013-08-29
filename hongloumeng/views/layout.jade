@@ -1,0 +1,25 @@
+doctype 5
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+        .mod-topbar
+            .wrapper-box
+                .left-box
+                    a(href="/" class="blogtitle") 红楼梦
+                .center-box
+                    ul(class="q-menubox")
+                        li(class="q-menuitem")
+                            a(href="/" title="返回首页") 首页
+                        li(class="q-menuitem")
+                            a(href="/direct" title="返回目录") 目录
+                        li(class="q-menuitem")
+                            a(href="/person/direct" title="查看人物") 人物
+                        li(class="q-menuitem")
+                            a(href="/aboutme" title="关于我" ) 关于我
+
+        .div_a
+            .div_b
+                .div_head
+            block content
